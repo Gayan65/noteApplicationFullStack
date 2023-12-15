@@ -28,7 +28,7 @@ except:
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="882200485@Vv"
+        password="YOUR PASSWORD"
     )
     mycursor = mydb.cursor()
     mycursor.execute("CREATE DATABASE notedb")
